@@ -1,9 +1,11 @@
 body{
   background-color: #82CAFA;
 }
-p {
-  color: red;
+
+.row{
+    clear: both;
 }
+
 
 div {
   height: 50px;
