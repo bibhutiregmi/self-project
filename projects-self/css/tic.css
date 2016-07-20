@@ -2,14 +2,31 @@ body{
   background-color: #82CAFA;
 }
 
-.row{
-    clear: both;
-}
 
 
-div {
-  height: 50px;
-  width: 50px;
-  padding: 2px;
-  background-color: white;
+.container{
+  height: 175px;
+  width: 175px;
+  margin: 1px;
 }
+
+div.col {
+  background-color: red;
+  float: left;
+}
+
+.row {
+    width: 175px;
+    height: 50px;
+
+}
+
+.cell {
+    width: 53px;
+    height: 50px;
+    background-color: pink;
+    float: left;
+    margin: 2px;
+}
+}
+
